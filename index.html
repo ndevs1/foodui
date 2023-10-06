@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodapp</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap_customized.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="app-layout">
+        <div class="container">
+            <div class="col-12">
+                <header class="header-wrap py-3">
+                    <div class=""></div>
+                    <div class="header-logo">
+                        <p>logo</p>
+                    </div>
+                    <div class="header-more">
+                        <button type="button">
+                            <i class="ri-clipboard-line"></i>
+                        </button>
+                    </div>
+                </header>
+                <main>
+                    <div class="video-container">
+                        <video autoplay loop muted playsinline>
+                            <source src="assets/img/1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class=" "></div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-menu">
+        <div class="swiper footer-menu-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="menu-item">
+                        <a href="#">
+                            <img src="assets/img/footer-menu-1.svg" width="45" alt="Footer Icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="menu-item">
+                        <a href="#">
+                            <img src="assets/img/footer-menu-1.svg" width="45" alt="Footer Icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="menu-item">
+                        <a href="#">
+                            <img src="assets/img/footer-menu-1.svg" width="45" alt="Footer Icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="menu-item">
+                        <a href="#">
+                            <img src="assets/img/footer-menu-1.svg" width="45" alt="Footer Icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="menu-item">
+                        <a href="#">
+                            <img src="assets/img/footer-menu-1.svg" width="45" alt="Footer Icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="menu-item">
+                        <a href="#">
+                            <img src="assets/img/footer-menu-1.svg" width="45" alt="Footer Icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="menu-item">
+                        <a href="#">
+                            <img src="assets/img/footer-menu-1.svg" width="45" alt="Footer Icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="menu-item">
+                        <a href="#">
+                            <img src="assets/img/footer-menu-1.svg" width="45" alt="Footer Icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+    </footer>
+
+    <!-- Script  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".footer-menu-slider", {
+            slidesPerView: 5,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // breakpoints: {
+            //     640: {
+            //         slidesPerView: 2,
+            //         spaceBetween: 20,
+            //     },
+            //     768: {
+            //         slidesPerView: 4,
+            //         spaceBetween: 40,
+            //     },
+            //     1024: {
+            //         slidesPerView: 5,
+            //         spaceBetween: 50,
+            //     },
+            // },
+        });
+    </script>
+</body>
+
+</html>
