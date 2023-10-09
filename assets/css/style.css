@@ -106,7 +106,7 @@ video {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    background-image: linear-gradient(rgb(0, 0, 0, 10%), rgb(0, 0, 0, 50%));
+    background-image: linear-gradient(rgba(50, 23, 13, 0), rgb(0, 0, 0));
     padding-bottom: 30px;
     padding-top: 30px;
 }
@@ -117,8 +117,9 @@ video {
 
 .video-area-contet h4 {
     font-size: 17px;
-    margin-left: 6px;
+    margin-left: 3px;
     margin-bottom: 0;
+    font-weight: 700;
 }
 
 .view-more {
@@ -169,4 +170,29 @@ video {
 
 .view-more-content span {
     font-size: 12px;
+}
+
+.home-main-description {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.home-main-description span {
+    font-weight: 400;
+}
+
+.view-more-content h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.view-more-content span {
+    font-weight: 500;
+}
+
+.alergenos h6 {
+    font-weight: 400 !important;
+    margin-bottom: 15px;
 }
