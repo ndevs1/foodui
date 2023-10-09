@@ -146,8 +146,13 @@ video {
     width: 100%;
 }
 
-.d-flex-wrap {
+/* .d-flex-wrap {
     flex-wrap: wrap;
+} */
+.d-grid-wrap {
+    /* flex-wrap: wrap; */
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .video-area-right-btn button {
