@@ -108,6 +108,7 @@ video {
     align-items: end;
     background-image: linear-gradient(rgb(0, 0, 0, 10%), rgb(0, 0, 0, 50%));
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .text-white {
@@ -155,6 +156,7 @@ video {
     font-size: 26px;
     padding: 0;
     margin-top: 10px;
+    display: block;
 }
 
 .video-area-right-btn {
