@@ -14,27 +14,88 @@
 <body>
     <div class="app-layout">
         <div class="container">
-            <div class="col-12">
-                <header class="header-wrap py-3">
-                    <div class=""></div>
-                    <div class="header-logo">
-                        <p>logo</p>
-                    </div>
-                    <div class="header-more">
-                        <button type="button">
-                            <i class="ri-clipboard-line"></i>
-                        </button>
-                    </div>
-                </header>
-                <main>
-                    <div class="video-container">
-                        <video autoplay loop muted playsinline>
-                            <source src="assets/img/1.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <div class=" "></div>
-                </main>
+            <div class="row">
+                <div class="col-12">
+                    <header class="header-wrap py-3">
+                        <div class=""></div>
+                        <div class="header-logo">
+                            <p>logo</p>
+                        </div>
+                        <div class="header-more">
+                            <button type="button">
+                                <i class="ri-clipboard-line"></i>
+                            </button>
+                        </div>
+                    </header>
+                    <main>
+                        <div class="video-container">
+                            <video autoplay loop muted playsinline>
+                                <source src="assets/img/1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="container video-area-contet text-white">
+                                <div class="video-area-left-content">
+                                    <div class="d-flex align-items-center">
+                                        <div class="mr-2"
+                                            style="background-image: url(assets/img/logo.png);width: 50px;height: 50px;background-size: cover;background-position: center;border-radius: 100px;">
+                                        </div>
+                                        <h4>CARTA DE COMIDAS Y CENAS</h4>
+                                    </div>
+                                    <p>
+                                        Croquetas de jamon con papada iberica 5e | 9c
+                                    </p>
+                                    <div class="video-area__toggleButton mt-3">
+                                        <button id="toggleButton" class="view-more">...Ver mas</button>
+                                        <div id="hiddenContent" class="hidden">
+                                            <div class="view-more-content">
+                                                <h6>Cantidades disponibles:</h6>
+                                                <span>2 uds | 4 uds</span>
+                                                <div class="alergenos mt-3">
+                                                    <h6>Alergenos:</h6>
+                                                    <div class="alergenos__item-wrap d-flex d-flex-wrap">
+                                                        <div
+                                                            class="alergenos__single-item mb-2 d-flex align-items-center  mr-3">
+                                                            <div class="mr-2"
+                                                                style="background-image: url(assets/img/logo.png);width: 30px;height: 30px;background-size: cover;background-position: center;border-radius: 100px;">
+                                                            </div>
+                                                            <span>Cereales con gluten</span>
+                                                        </div>
+                                                        <div
+                                                            class="alergenos__single-item mb-2 d-flex align-items-center mr-3">
+                                                            <div class="mr-2"
+                                                                style="background-image: url(assets/img/logo.png);width: 30px;height: 30px;background-size: cover;background-position: center;border-radius: 100px;">
+                                                            </div>
+                                                            <span>Lacteos</span>
+                                                        </div>
+                                                        <div
+                                                            class="alergenos__single-item  mb-2 d-flex align-items-center mr-3">
+                                                            <div class="mr-2"
+                                                                style="background-image: url(assets/img/logo.png);width: 30px;height: 30px;background-size: cover;background-position: center;border-radius: 100px;">
+                                                            </div>
+                                                            <span>Huevos</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button id="closeButton" class="close-button">
+                                                Ver menos
+                                                <i class="ri-arrow-down-s-line"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-area-right-btn">
+                                    <button type="button">
+                                        <i class="ri-add-circle-line"></i>
+                                    </button>
+                                    <button type="button">
+                                        <i class="ri-heart-line"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
             </div>
         </div>
     </div>
@@ -104,6 +165,7 @@
 
     <!-- Script  -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
     <script>
         var swiper = new Swiper(".footer-menu-slider", {
             slidesPerView: 5,
