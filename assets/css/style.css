@@ -10,77 +10,36 @@ p {
     padding: 0;
 }
 
-.header-wrap {
+.app-layout .header-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-more button {
+.app-layout .header-more button {
     background: 0;
     border: 0;
     font-size: 26px;
     color: #fff;
 }
 
-.header-logo {
+.app-layout .header-logo {
     font-size: 21px;
     color: #fff;
 }
 
-.footer-menu {
-    background: #ededed;
-    height: 70px;
-    line-height: 70px;
-    border-radius: 15px 15px 0 0;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-}
-
-.swiper-button-prev::after {
-    color: #696969;
-    font-size: 17px !important;
-    margin-left: -36px;
-}
-
-.swiper-button-next::after {
-    color: #696969;
-    font-size: 17px !important;
-    margin-right: -25px;
-}
-
-.swiper-slide.swiper-slide-active {
-    text-align: center;
-    position: relative;
-}
-
-.swiper-slide.swiper-slide-active:after {
-    position: absolute;
-    background: #615858;
-    width: 40px;
-    height: 3px;
-    content: '';
-    bottom: 6px;
-    left: 13px;
-    border-radius: 5px;
-}
-
-.menu-item {
-    text-align: center;
-}
 
 
 
 
-/* styles.css */
+/* styles.app-layout .css */
 /* body {
     margin: 0;
     padding: 0;
     overflow: hidden;
 } */
 
-.video-container {
+.app-layout .video-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -97,44 +56,44 @@ video {
     height: 100%;
 }
 
-.video-area-contet {
+.app-layout .video-area-contet {
     position: absolute;
     z-index: 999;
     left: 0;
-    bottom: 70px;
+    bottom: 50px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: end;
     background-image: linear-gradient(rgba(50, 23, 13, 0), rgb(0, 0, 0));
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     padding-top: 30px;
 }
 
-.text-white {
+.app-layout .text-white {
     color: #fff !important;
 }
 
-.video-area-contet h4 {
+.app-layout .video-area-contet h4 {
     font-size: 17px;
     margin-left: 3px;
     margin-bottom: 0;
     font-weight: 700;
 }
 
-.view-more {
+.app-layout .view-more {
     color: #0074d9;
     cursor: pointer;
     background: none;
     border: 0;
 }
 
-.hidden {
+.app-layout .hidden {
     display: none;
     text-align: left;
 }
 
-.close-button {
+.app-layout .close-button {
     color: #0074d9;
     cursor: pointer;
     background: none;
@@ -146,16 +105,16 @@ video {
     width: 100%;
 }
 
-/* .d-flex-wrap {
+/* .app-layout .d-flex-wrap {
     flex-wrap: wrap;
 } */
-.d-grid-wrap {
+.app-layout .d-grid-wrap {
     /* flex-wrap: wrap; */
     display: grid !important;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.video-area-right-btn button {
+.app-layout .video-area-right-btn button {
     background: none;
     color: #fff;
     border: 0;
@@ -165,39 +124,153 @@ video {
     display: block;
 }
 
-.video-area-right-btn {
+.app-layout .video-area-right-btn {
     text-align: right;
 }
 
-.view-more-content h6 {
+.app-layout .view-more-content h6 {
     font-size: 14px;
 }
 
-.view-more-content span {
+.app-layout .view-more-content span {
     font-size: 12px;
 }
 
-.home-main-description {
+.app-layout .home-main-description {
     font-size: 14px;
     font-weight: 700;
     margin-top: 3px;
 }
 
-.home-main-description span {
+.app-layout .home-main-description span {
     font-weight: 400;
 }
 
-.view-more-content h6 {
+.app-layout .view-more-content h6 {
     font-size: 14px;
     font-weight: 600;
     margin-top: 3px;
 }
 
-.view-more-content span {
+.app-layout .view-more-content span {
     font-weight: 500;
 }
 
-.alergenos h6 {
+.app-layout .alergenos h6 {
     font-weight: 400 !important;
     margin-bottom: 15px;
+}
+
+
+
+/* Footer menu  */
+.app-layout .footer-menu {
+    background: #ededed;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 15px 15px 0 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.app-layout .swiper-button-prev::after {
+    color: #696969;
+    font-size: 17px !important;
+    margin-left: -36px;
+}
+
+.app-layout .swiper-button-next::after {
+    color: #696969;
+    font-size: 17px !important;
+    margin-right: -25px;
+}
+
+.app-layout .swiper-slide.app-layout .swiper-slide-active {
+    text-align: center;
+    position: relative;
+}
+
+.app-layout .swiper-slide.app-layout .swiper-slide-active:after {
+    position: absolute;
+    background: #615858;
+    width: 40px;
+    height: 3px;
+    content: '';
+    bottom: 6px;
+    left: 13px;
+    border-radius: 5px;
+}
+
+.app-layout .menu-item {
+    text-align: center;
+}
+
+
+
+/* list item view */
+.app-layout {
+    min-height: 100vh;
+}
+
+.list-single-item {
+    border-radius: 15px;
+}
+
+.list-item-photo {
+    width: 300px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.list-single-item {
+    display: flex;
+}
+
+.list-item-content {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.list-item-content h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: -5px;
+    display: block;
+}
+
+.list-item-content p {
+    font-size: 12px;
+}
+
+.list-item-btn {
+    margin-top: 33px;
+    text-align: right;
+}
+
+.list-item-btn button {
+    border: 0;
+    background: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.list-item-photo video {
+    border-radius: 15px;
+}
+
+.list-item-title h3 {
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 2px solid rgb(0, 169, 157);
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
