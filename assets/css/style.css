@@ -32,7 +32,7 @@ p {
 
 
 
-/* styles.app-layout .css */
+/* styles .app-layout .css */
 /* body {
     margin: 0;
     padding: 0;
@@ -105,7 +105,7 @@ video {
     width: 100%;
 }
 
-/* .app-layout .d-flex-wrap {
+/*  .app-layout .d-flex-wrap {
     flex-wrap: wrap;
 } */
 .app-layout .d-grid-wrap {
@@ -186,12 +186,12 @@ video {
     margin-right: -25px;
 }
 
-.app-layout .swiper-slide.app-layout .swiper-slide-active {
+.app-layout .swiper-slide .app-layout .swiper-slide-active {
     text-align: center;
     position: relative;
 }
 
-.app-layout .swiper-slide.app-layout .swiper-slide-active:after {
+.app-layout .swiper-slide .app-layout .swiper-slide-active:after {
     position: absolute;
     background: #615858;
     width: 40px;
@@ -213,11 +213,11 @@ video {
     min-height: 100vh;
 }
 
-.list-single-item {
+.app-layout .list-single-item {
     border-radius: 15px;
 }
 
-.list-item-photo {
+.app-layout .list-item-photo {
     width: 300px;
     height: 150px;
     background-position: center;
@@ -225,48 +225,48 @@ video {
     border-radius: 15px;
 }
 
-.list-single-item {
+.app-layout .list-single-item {
     display: flex;
 }
 
-.list-item-content {
+.app-layout .list-item-content {
     width: 100%;
     margin-left: 10px;
 }
 
-.list-item-content h4 {
+.app-layout .list-item-content h4 {
     font-size: 14px;
     font-weight: 700;
 }
 
-.price {
+.app-layout .price {
     font-size: 13px;
     font-weight: 500;
     margin-top: -5px;
     display: block;
 }
 
-.list-item-content p {
+.app-layout .list-item-content p {
     font-size: 12px;
 }
 
-.list-item-btn {
+.app-layout .list-item-btn {
     margin-top: 33px;
     text-align: right;
 }
 
-.list-item-btn button {
+.app-layout .list-item-btn button {
     border: 0;
     background: 0;
     color: #fff;
     font-size: 24px;
 }
 
-.list-item-photo video {
+.app-layout .list-item-photo video {
     border-radius: 15px;
 }
 
-.list-item-title h3 {
+.app-layout .list-item-title h3 {
     text-align: center;
     font-size: 17px;
     border-bottom: 2px solid rgb(0, 169, 157);
